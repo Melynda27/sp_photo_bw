@@ -1,0 +1,21 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+
+.card__content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-grow: 1;
+}
+
+
+.card__image {
+    max-width: 174px;
+    max-height: 262px;
+    object-fit: cover;
+}
